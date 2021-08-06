@@ -160,6 +160,171 @@ ________________________________________________
 
 </html>
 ________________________________________________
+7)
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/css/index.css">
+    
+</head>
+
+<body>
+    <div id = "title">Yes! I want to subscribe to Mag-O-Zine</div></br>
+    <div id = "form">
+        <form action="/https:Google.com" method="GET">
+            <label for = "first_Name">FirstName:</label>&nbsp;
+            <input type="text" name = "first_Name">&nbsp;&nbsp;
+            <label for = "last_Name">Last Name:</label>&nbsp;
+            <input type="text" name = "first_Name"></br></br>
+            <label for = "address" name = "address">Address:</label>&nbsp;
+            <input type="text"  name = "address"></br></br>
+            <label for = "city">City</label>
+            <input type="text" name = "city">&nbsp;&nbsp;
+            <label for= "state">State: </label>
+            <input type="text" name = "state">&nbsp;&nbsp;
+            <label for="pincode">Zip: </label>
+            <input type ="text" name = "pincode"></br>
+            <div id = subscribe></br>
+                Subscribe for:
+                
+                    <input type="checkbox" name = "1years">
+                    <label for = "1years">1 Year</label>
+                    <input type="checkbox" name = "2years">
+                    <label for = "2years">2 Year</label>
+            </div>
+            <div id = "information"></br>
+                Send me more information about:
+                <div id = "checkbox2">
+                    <input type="checkbox" name = "computer_Zine">
+                    <label for = "computer_Zine">Computer_Zine</label></br>
+                    <input type="checkbox" name = "fishing_Zine">
+                    <label for = "fishing_Zine">Fishing_Zine</label></br>
+                    <input type="checkbox" name = "cat_O_Zine">
+                    <label for = "cat_O_Zine">Cat O Zine</label></br>
+                </div>
+
+            </div>
+
+    </div>
+
+</body>
+
+</html>
+body{
+    border: 5px solid black;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+       
+}
+#title{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+    text-align-last: center; 
+    font-weight: bold;
+}
+#information{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#subscribe{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#form{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+__________________________________________________
+8)
+___<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/workspace.css">
+    <style>
+        table, th,td{
+            border: 1px solid black;
+            border-spacing: 5px;
+            border-collapse: collapse;
+        }
+        th,td{
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id = "title">
+        Health chart
+    </div>
+    
+    <table>
+        <tr>
+            <th rowspan="2">
+                State of Health 
+            </th>
+            <th colspan="2">Fasting Value</th>
+            <th> After Eating</th>
+        </tr>
+        <tr>
+            <td>Minimum</td>
+            <td>Maximum</td>
+            <td>2 hours after eating</td>
+        </tr>
+        <tr>
+            <td>Healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td> Less than 140</td>
+        </tr>
+        <tr>
+            <td>Pre-Diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>40 to 200</td>
+        </tr>
+        <tr>
+            <td>Diabetes</td>
+            <td>More than 126</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+        </tr>    
+    </table>
+</body>
+</html>_
+CSS:
+body{
+    text-align:center;
+    font-size: 20px;
+    margin: 20%;
+
+}
+#title{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+_______________________________________________
+
+
+___________________________________________________
+
 10)
 <!DOCTYPE html>
 <html lang="en">
@@ -184,5 +349,3 @@ ________________________________________________
 
 </html>
 ______________________________________
-11)
-
